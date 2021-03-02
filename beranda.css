@@ -1,0 +1,386 @@
+body{
+  overflow-x: hidden;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: blue;
+}
+
+h1, h2, h3, h4, h5, h6, .font-heading {
+  font-family: "Raleway", sans-serif;
+}
+
+.section {
+  padding: 7rem 0;
+}
+
+.filters a {
+  text-decoration: none;
+  color: #000;
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+}
+
+.filters a:hover, .filters a:focus, .filters a:active {
+  text-decoration: none;
+}
+
+.filters a:hover:before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 0;
+  height: 1px;
+  background-color: #000;
+}
+
+.filters a.active {
+  color: #000;
+}
+
+.filters a.active:before {
+  content: "";
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 0;
+  height: 1px;
+  background-color: #000;
+}
+
+
+.menu {
+  word-spacing: 10px;
+  float: left;
+  margin-top: 5px;
+  margin-left: 100px;
+  
+}
+
+.judul{
+  float: left;
+}
+
+.gambarpojok {
+  position: absolute;
+  left: 1000px;
+  right: -0.1%;
+  top: -60px;
+  bottom: none;
+  transform: rotate(-18.43deg);
+  opacity: 40%;
+}
+
+.button {
+  float: right;
+  margin-right: 280px;
+}
+
+.jumbotron {
+  padding-top: 200px;
+}
+
+.list-group-item {
+  margin-top: 50px;
+  height: 200px;
+}
+
+.logotag{
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  transform: rotate(500deg);
+}
+
+.logotag2{
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  margin-top: 400px;
+}
+
+.background1{
+  background-color: lightgray;
+  margin-top: 50px;
+  padding-bottom: 20px; 
+  }
+
+.card{
+  font-size: 30px;
+  margin-left: 20px;
+
+  }
+
+.row{
+  margin-left: 200px;
+}
+
+.card-text {
+  font-size: 20px;
+}
+
+.button1{
+  margin-bottom: 10px;
+}
+
+.button3{
+  margin-top: 50px;
+}
+
+.judul1 {
+  margin-top: 100px;
+}
+
+.logo1{
+  position: absolute;
+  height: 250px;
+  width: 250px;
+
+}
+
+.logo2{
+  position: absolute;
+  height: 107px;
+  width: 150px;
+  margin-left: 250px;
+  margin-top: 70px;
+}
+
+.logo3{
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  margin-left: 430px;
+  margin-top: 25px;
+
+}
+
+.logo4{
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  margin-left: 650px;
+  margin-top: 25px;
+}
+
+.logo5{
+  position: absolute;
+  height: 250px;
+  width: 250px;
+  margin-top: 100px;
+}
+
+.logo6{
+  position: absolute;
+  height: 107px;
+  width: 150px;
+  margin-left: 250px;
+  margin-top: 170px;
+}
+
+.logo7{
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  margin-left: 430px;
+  margin-top: 120px;
+
+}
+
+.logo8{
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  margin-left: 650px;
+  margin-top: 115px;
+}
+
+.logo9{
+  position: absolute;
+  height: 230px;
+  width: 230px;
+  margin-left: 870px;
+  margin-top: 60px;
+  border-radius: 30px;
+  transform: rotate(54deg);
+}
+
+.logo10{
+  position: absolute;
+  height: 340px;
+  width: 320px;
+  margin-left: 800px;
+ }
+
+.logo11{
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  margin-left: 1130px;
+}
+
+.logo12{
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  margin-left: 1000px;
+  margin-top: 300px;
+}
+
+.button4{
+  position: absolute;
+  margin-left: 100px;
+  margin-top: 300px;
+}
+.box3{
+  position: relative;
+  background-color: white;
+   height: 700px;
+  width: 1550px;
+  top: 500px;
+}
+.background2{
+  position: absolute;
+  height: 400px;
+  width: 1550px;
+  opacity: 70%;
+}
+
+.judul2{
+ position:relative;
+ top: 200px;
+ z-index: 1;
+ margin-right: 50px; 
+}
+
+.card2{
+  margin-top: 380px;
+  z-index: 1;
+  margin-left: -45px;
+  margin-right: 20px; 
+}
+
+.card3{
+  margin-left: 280px;
+  margin-top: -190px;
+}
+
+.box4{
+  position: relative;
+  background-color: lightgray;
+  height: 500px;
+  width: 1400px;
+  margin-top: 500px;
+  opacity: 60%;
+ 
+}
+
+.judul3{
+  z-index: 1;
+}
+
+.input1{
+ width: 500px; 
+ position: absolute;
+}
+
+.input2{
+  width: 500px;
+  position: absolute;
+}
+
+.input3{
+position: absolute;
+width: 1050px;
+height: 100px;
+}
+
+.papan1{
+  margin-left: 100px;
+  margin-top: 40px;
+}
+
+.papan2{
+  margin-left: 650px;
+  margin-top: -40px;
+}
+
+.papan3{
+  margin-top: 80px;
+  margin-left: 100px;
+}
+
+.btn-send{
+  margin-top: 150px;
+  margin-left: 100px;
+}
+
+.box5{
+  position: relative;
+  background-color: white;
+  height: 250px;
+  width: 1400px;
+  }
+
+.judul4{
+  margin-top: 30px;
+  margin-left: 50px;
+}
+
+.icon1{
+  width: 50px;
+  height: 50px;
+}
+
+.icon2{
+  width: 50px;
+  height: 50px;
+}
+
+.icon3{
+  width: 50px;
+  height: 50px;
+}
+
+.icon4{
+  width: 50px;
+  height: 50px;
+}
+
+.icon{
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.resource{
+  position: absolute;
+  margin-left: 450px;
+  margin-top: -220px;  
+}
+
+.services{
+  position: absolute;
+  margin-left: 600px;
+  margin-top: -220px;
+}
+
+.company{
+  position: absolute;
+  margin-left: 900px;
+  margin-top: -220px;
+}
+
+.box6{
+  position: relative;
+  background-color: lightgray;
+  height: 30px;
+  width: 1400px;
+}
